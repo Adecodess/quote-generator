@@ -1,0 +1,232 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100%;
+  width: 100%;
+  font-family: "Fjalla One", sans-serif;
+  font-family: "Roboto", sans-serif;
+  font-family: "Ubuntu", sans-serif;
+  background: chocolate;
+}
+
+.title {
+  text-align: center;
+  padding-top: 50px;
+  font-size: 30px;
+  font-size: 600;
+  font-family: "Fjalla One", sans-serif;
+}
+
+.quote-block {
+  height: 20em;
+  width: 60em;
+  margin: 5em auto;
+  border-radius: 5px;
+  background: white;
+}
+
+.my-quote {
+  height: 15em;
+  padding: 20px;
+}
+
+.quote-text {
+  font-size: 25px;
+  font-weight: 500;
+  font-family: "Ubuntu", sans-serif;
+}
+
+.quote-author {
+  margin-top: 10px;
+  margin-left: 30em;
+  font-weight: normal;
+}
+
+.quote-controls {
+  display: flex;
+  justify-content: space-between;
+  padding: 5px;
+  margin-top: 8.5em;
+}
+
+.quote-controls-button {
+  padding: 10px;
+  text-transform: capitalize;
+  font-size: 1em;
+  background: gray;
+  color: black;
+}
+
+@keyframes ldio-n55u11rfr7p {
+  0% {
+    transform: rotate(0deg);
+  }
+  50% {
+    transform: rotate(22.5deg);
+  }
+  100% {
+    transform: rotate(45deg);
+  }
+}
+.ldio-n55u11rfr7p > div {
+  transform-origin: 100px 100px;
+  animation: ldio-n55u11rfr7p 0.2s infinite linear;
+}
+.ldio-n55u11rfr7p > div div {
+  position: absolute;
+  width: 22px;
+  height: 152px;
+  background: #e15b64;
+  left: 100px;
+  top: 100px;
+  transform: translate(-50%, -50%);
+}
+.ldio-n55u11rfr7p > div div:nth-child(1) {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+}
+.ldio-n55u11rfr7p > div div:nth-child(6) {
+  width: 80px;
+  height: 80px;
+  background: black;
+  border-radius: 50%;
+}
+.ldio-n55u11rfr7p > div div:nth-child(3) {
+  transform: translate(-50%, -50%) rotate(45deg);
+}
+.ldio-n55u11rfr7p > div div:nth-child(4) {
+  transform: translate(-50%, -50%) rotate(90deg);
+}
+.ldio-n55u11rfr7p > div div:nth-child(5) {
+  transform: translate(-50%, -50%) rotate(135deg);
+}
+.loadingio-spinner-gear-hgpbscnhsy {
+  width: 200px;
+  height: 200px;
+  /* display: inline-block; */
+  margin: 20em auto;
+  overflow: hidden;
+  background: black;
+}
+.ldio-n55u11rfr7p {
+  width: 100%;
+  height: 100%;
+  /* position: relative; */
+  transform: translateZ(0) scale(1);
+  backface-visibility: hidden;
+  transform-origin: 0 0; /* see note above */
+}
+.ldio-n55u11rfr7p div {
+  box-sizing: content-box;
+}
+
+@keyframes ldio-thglq6myki-1 {
+  0% {
+    top: 36px;
+    height: 128px;
+  }
+  50% {
+    top: 60px;
+    height: 80px;
+  }
+  100% {
+    top: 60px;
+    height: 80px;
+  }
+}
+@keyframes ldio-thglq6myki-2 {
+  0% {
+    top: 41.99999999999999px;
+    height: 116.00000000000001px;
+  }
+  50% {
+    top: 60px;
+    height: 80px;
+  }
+  100% {
+    top: 60px;
+    height: 80px;
+  }
+}
+@keyframes ldio-thglq6myki-3 {
+  0% {
+    top: 48px;
+    height: 104px;
+  }
+  50% {
+    top: 60px;
+    height: 80px;
+  }
+  100% {
+    top: 60px;
+    height: 80px;
+  }
+}
+.ldio-thglq6myki div {
+  position: absolute;
+  width: 30px;
+}
+.ldio-thglq6myki div:nth-child(1) {
+  left: 35px;
+  background: #e15b64;
+  animation: ldio-thglq6myki-1 1s cubic-bezier(0, 0.5, 0.5, 1) infinite;
+  animation-delay: -0.2s;
+}
+.ldio-thglq6myki div:nth-child(2) {
+  left: 85px;
+  background: #f8b26a;
+  animation: ldio-thglq6myki-2 1s cubic-bezier(0, 0.5, 0.5, 1) infinite;
+  animation-delay: -0.1s;
+}
+.ldio-thglq6myki div:nth-child(3) {
+  left: 135px;
+  background: #abbd81;
+  animation: ldio-thglq6myki-3 1s cubic-bezier(0, 0.5, 0.5, 1) infinite;
+  animation-delay: undefineds;
+}
+
+.loadingio-spinner-pulse-h2s1ysm1dlo {
+  width: 200px;
+  height: 200px;
+  margin: 0 auto;
+  /* display: inline-block; */
+  overflow: hidden;
+  background: #ffffff;
+}
+.ldio-thglq6myki {
+  width: 100%;
+  height: 100%;
+  font-size: 100px;
+  position: relative;
+  transform: translateZ(0) scale(1);
+  backface-visibility: hidden;
+  transform-origin: 0 0; /* see note above */
+}
+.ldio-thglq6myki div {
+  box-sizing: content-box;
+}
+
+@media only screen and (max-width: 800px) {
+  .quote-block {
+    height: 35em;
+    width: 25em;
+    margin-top: 20px;
+    /* padding: 10px; */
+  }
+
+  .quote-text {
+    font-size: 30px;
+    font-weight: 500;
+    font-family: "Ubuntu", sans-serif;
+  }
+
+  .quote-author {
+    margin-left: 11em;
+    font-weight: normal;
+  }
+}
